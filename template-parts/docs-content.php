@@ -72,14 +72,24 @@ if(!empty($theme_options['single_doc_layout']) && $theme_options['single_doc_lay
 		</h1>
 	</div>
 
-	<?php $revised_date = function_exists('get_field') ? get_field('revised_date') : null; ?>
-	<div class="text-sm text-frost-500 mt-4">
-		<?php if (!empty($revised_date)): ?>
-			<?php echo sprintf(esc_html__('Revised on %s', 'wp-documentation'), esc_html($revised_date)); ?>
-		<?php else: ?>
-			<?php echo sprintf(esc_html__('Published on %s', 'wp-documentation'), esc_html(get_the_date())); ?>
-		<?php endif; ?>
-	</div>
+	<?php
+		$revised_date = function_exists('get_field') ? get_field('revised_date') : null;
+		$has_child_docs = !empty(get_children([
+			'post_parent' => get_the_ID(),
+			'post_type'   => 'docs',
+			'post_status' => 'publish',
+			'numberposts' => 1,
+		]));
+	?>
+	<?php if (!$has_child_docs): ?>
+		<div class="text-sm text-frost-500 mt-4">
+			<?php if (!empty($revised_date)): ?>
+				<?php echo sprintf(esc_html__('Revised on %s', 'wp-documentation'), esc_html($revised_date)); ?>
+			<?php else: ?>
+				<?php echo sprintf(esc_html__('Published on %s', 'wp-documentation'), esc_html(get_the_date())); ?>
+			<?php endif; ?>
+		</div>
+	<?php endif; ?>
 
 	<?php if(get_post_thumbnail_id()): ?>
 		<div class="relative h-96 flex flex-start items-stretch gap-4 mb-8 mt-8 overflow-hidden">
