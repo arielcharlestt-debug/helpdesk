@@ -1,0 +1,804 @@
+{
+    "key": "group_6811e1d4ad427",
+    "title": "Customize Options",
+    "fields": [
+        {
+            "key": "field_6811e2e06682a",
+            "label": "WP Documentation",
+            "name": "wp_documentation_options",
+            "aria-label": "",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "tab_appearance",
+                    "label": "Appearance",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6811e1d69559b",
+                    "label": "Primary Color (Light Mode)",
+                    "name": "primary_color",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#31358A",
+                    "enable_opacity": 0,
+                    "return_format": "string",
+                    "allow_in_bindings": 0,
+                    "custom_palette_source": "",
+                    "palette_colors": "#dc2626,#ca8a04,#16a34a,#2563eb,#9333ea,#db2777,#475569,#525252",
+                    "show_color_wheel": true
+                },
+                {
+                    "key": "field_6811e220e393f",
+                    "label": "Primary Color (Dark Mode)",
+                    "name": "primary_color_dark_mode",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#6f73cc",
+                    "enable_opacity": 0,
+                    "return_format": "string",
+                    "allow_in_bindings": 0,
+                    "custom_palette_source": "",
+                    "palette_colors": "#f87171,#eab308,#4ade80,#60a5fa,#c084fc,#f472b6,#94a3b8,#a3a3a3",
+                    "show_color_wheel": true
+                },
+                {
+                    "key": "field_base_color_light",
+                    "label": "Base Color (Light Mode)",
+                    "name": "base_color_light",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "Set the lightest shade of the frost palette. All frost tones in <strong>light mode</strong> will be generated from this color toward black. Default: #ffffff",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#ffffff",
+                    "enable_opacity": 0,
+                    "return_format": "string",
+                    "allow_in_bindings": 0,
+                    "show_color_wheel": true,
+                    "palette_colors": "#ffffff,#f8fafc,#f0f4ff,#fef9ef,#fdf2f8,#ecfdf5,#fef2f2,#fff7ed,#f5f3ff,#fdf4ff,#eef2ff,#eff6ff"
+                },
+                {
+                    "key": "field_base_color_dark",
+                    "label": "Base Color (Dark Mode)",
+                    "name": "base_color_dark",
+                    "aria-label": "",
+                    "type": "color_picker",
+                    "instructions": "Set the darkest shade of the frost palette. All frost tones in <strong>dark mode</strong> will be generated from this color toward white. Default: #030712",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "#030712",
+                    "enable_opacity": 0,
+                    "return_format": "string",
+                    "allow_in_bindings": 0,
+                    "show_color_wheel": true,
+                    "palette_colors": "#030712,#0f172a,#0a0e1a,#1a140d,#1a0f1a,#0a1a14,#1a0a0a,#1a140d,#1a1428,#1a0a1a,#0f0f1a,#0a0e1a"
+                },
+                {
+                    "key": "field_6811e3729f889",
+                    "label": "Default Color Scheme",
+                    "name": "default_color_scheme",
+                    "aria-label": "",
+                    "type": "button_group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "auto": "Auto",
+                        "light": "Light",
+                        "dark": "Dark"
+                    },
+                    "default_value": "light",
+                    "return_format": "value",
+                    "allow_null": 0,
+                    "allow_in_bindings": 0,
+                    "layout": "horizontal"
+                },
+                {
+                    "key": "field_color_style_5a1",
+                    "label": "Color Style",
+                    "name": "color_style",
+                    "aria-label": "",
+                    "type": "button_group",
+                    "instructions": "Controls the global color palette across cards, grids, callouts, and hero decorations. <strong>Colorful</strong> uses a multicolor palette. <strong>Neutral</strong> uses only gray/frost tones. <strong>Branded</strong> drives all accents with the primary color.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "colorful": "Colorful",
+                        "neutral": "Neutral",
+                        "branded": "Branded"
+                    },
+                    "default_value": "colorful",
+                    "return_format": "value",
+                    "allow_null": 0,
+                    "allow_in_bindings": 0,
+                    "layout": "horizontal"
+                },
+                {
+                    "key": "field_font_style",
+                    "label": "Font Style",
+                    "name": "font_style",
+                    "aria-label": "",
+                    "type": "button_group",
+                    "instructions": "Select a font pairing. Default uses locally served Open Sans + Roboto Serif. Other styles load alternate fonts from the theme's font library.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "system": "Default",
+                        "playful": "Playful",
+                        "warm": "Warm",
+                        "modern": "Modern",
+                        "techno": "Techno",
+                        "sleek": "Sleek",
+                        "professional": "Professional",
+                        "elegant": "Elegant"
+                    },
+                    "default_value": "system",
+                    "return_format": "value",
+                    "allow_null": 0,
+                    "allow_in_bindings": 0,
+                    "layout": "horizontal"
+                },
+                {
+                    "key": "field_roundedness",
+                    "label": "Roundedness",
+                    "name": "roundedness",
+                    "aria-label": "",
+                    "type": "button_group",
+                    "instructions": "Controls border-radius for theme components. Default is None (square).",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "none": "None",
+                        "sm": "Small",
+                        "md": "Medium",
+                        "lg": "Large"
+                    },
+                    "default_value": "none",
+                    "return_format": "value",
+                    "allow_null": 0,
+                    "allow_in_bindings": 0,
+                    "layout": "horizontal"
+                },
+                {
+                    "key": "tab_homepage",
+                    "label": "Homepage",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6811e4762ae7e",
+                    "label": "Docs Home Hero Layout",
+                    "name": "docs_home_hero_layout",
+                    "aria-label": "",
+                    "type": "button_group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "default": "Default",
+                        "searchbar": "Search Bar",
+                        "call_to_action": "Call to Action (Pro)",
+                        "command": "Command (Pro)",
+                        "simple_content": "Simple Content (Pro)",
+                        "disabled": "Disabled"
+                    },
+                    "default_value": "default",
+                    "return_format": "value",
+                    "allow_null": 0,
+                    "allow_in_bindings": 1,
+                    "layout": "horizontal"
+                },
+                {
+                    "key": "field_68120c039a349",
+                    "label": "Docs Home Hero Content",
+                    "name": "docs_home_hero_content",
+                    "aria-label": "",
+                    "type": "group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_6811e4762ae7e",
+                                "operator": "!=",
+                                "value": "disabled"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_693ff6aac6563",
+                            "label": "Subtitle",
+                            "name": "subtitle",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Version 1.5.0",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_68120c1c9a34a",
+                            "label": "Title",
+                            "name": "title",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Build better docs, 10x faster",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_68120c2d9a34b",
+                            "label": "Description",
+                            "name": "description",
+                            "aria-label": "",
+                            "type": "wysiwyg",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "Comprehensive guides, API references, and tutorials to help you build amazing WordPress experiences.",
+                            "allow_in_bindings": 0,
+                            "tabs": "all",
+                            "toolbar": "basic",
+                            "media_upload": 1,
+                            "delay": 0
+                        },
+                        {
+                            "key": "field_hero_bg_image",
+                            "label": "Background Image",
+                            "name": "background_image",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "Optional. Replaces the dotted texture with a custom image behind the hero content.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "preview_size": "medium",
+                            "allow_in_bindings": 0
+                        },
+                        {
+                            "key": "field_68120c449a34c",
+                            "label": "Link",
+                            "name": "link",
+                            "aria-label": "",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_6811e4762ae7e",
+                                        "operator": "==",
+                                        "value": "default"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "field": "field_6811e4762ae7e",
+                                        "operator": "==",
+                                        "value": "call_to_action"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "allow_in_bindings": 0
+                        },
+                        {
+                            "key": "field_69429c5e07576",
+                            "label": "Link (Secondary)",
+                            "name": "link_secondary",
+                            "aria-label": "",
+                            "type": "link",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_6811e4762ae7e",
+                                        "operator": "==",
+                                        "value": "default"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "field": "field_6811e4762ae7e",
+                                        "operator": "==",
+                                        "value": "call_to_action"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "allow_in_bindings": 0
+                        },
+                        {
+                            "key": "field_68120c4f9a34d",
+                            "label": "Command",
+                            "name": "command",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": [
+                                [
+                                    {
+                                        "field": "field_6811e4762ae7e",
+                                        "operator": "==",
+                                        "value": "command"
+                                    }
+                                ]
+                            ],
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "npm install react",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        }
+                    ]
+                },
+                {
+                    "key": "field_6811e66becd9e",
+                    "label": "Docs Home Grid Card",
+                    "name": "docs_home_grid_card",
+                    "aria-label": "",
+                    "type": "button_group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "default": "Default",
+                        "informative": "Informative",
+                        "simple": "Simple (Pro)",
+                        "clean": "Clean (Pro)",
+                        "modern": "Modern (Pro)",
+                        "minimal": "Minimal (Pro)",
+                        "stacked": "Stacked (Pro)",
+                        "compact": "Compact (Pro)"
+                    },
+                    "default_value": "informative",
+                    "return_format": "value",
+                    "allow_null": 0,
+                    "allow_in_bindings": 0,
+                    "layout": "horizontal"
+                },
+                {
+                    "key": "field_6811e83ed6487",
+                    "label": "Docs Home FAQ Layout",
+                    "name": "docs_home_faq_layout",
+                    "aria-label": "",
+                    "type": "button_group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "default": "Default",
+                        "split": "Split (Pro)",
+                        "disabled": "Disabled"
+                    },
+                    "default_value": "default",
+                    "return_format": "value",
+                    "allow_null": 0,
+                    "allow_in_bindings": 0,
+                    "layout": "horizontal"
+                },
+                {
+                    "key": "tab_docs",
+                    "label": "Docs",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6811e9ed9bb13",
+                    "label": "Single Doc Layout",
+                    "name": "single_doc_layout",
+                    "aria-label": "",
+                    "type": "button_group",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "default": "Default",
+                        "minimal": "Minimal",
+                        "hide_sidebar": "Hide Sidebar",
+                        "hide_toc": "Hide TOC"
+                    },
+                    "default_value": "",
+                    "return_format": "value",
+                    "allow_null": 0,
+                    "allow_in_bindings": 0,
+                    "layout": "horizontal"
+                },
+                {
+                    "key": "tab_footer",
+                    "label": "Footer",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_6811eb7b22df0",
+                    "label": "Copyright Notice",
+                    "name": "footer_copyright_notice",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": ""
+                },
+                {
+                    "key": "tab_status_bar",
+                    "label": "Status Bar",
+                    "name": "",
+                    "type": "tab",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "placement": "top",
+                    "endpoint": 0
+                },
+                {
+                    "key": "field_status_bar_enabled",
+                    "label": "Enable Status Bar",
+                    "name": "status_bar_enabled",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "Show a notification bar at the top of the site with primary background color.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                },
+                {
+                    "key": "field_status_bar_messages",
+                    "label": "Status Bar Messages",
+                    "name": "status_bar_messages",
+                    "aria-label": "",
+                    "type": "repeater",
+                    "instructions": "Add messages to display in the status bar. Multiple messages will auto-rotate.",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_status_bar_enabled",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "layout": "block",
+                    "pagination": 0,
+                    "min": 0,
+                    "max": 10,
+                    "collapsed": "",
+                    "button_label": "Add Message",
+                    "rows_per_page": 20,
+                    "sub_fields": [
+                        {
+                            "key": "field_status_bar_message_content",
+                            "label": "Content",
+                            "name": "content",
+                            "aria-label": "",
+                            "type": "wysiwyg",
+                            "instructions": "Message content displayed in the status bar.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "allow_in_bindings": 0,
+                            "tabs": "visual",
+                            "toolbar": "basic",
+                            "media_upload": 0,
+                            "delay": 0,
+                            "parent_repeater": "field_status_bar_messages"
+                        },
+                        {
+                            "key": "field_status_bar_message_link",
+                            "label": "Link (optional)",
+                            "name": "link",
+                            "aria-label": "",
+                            "type": "link",
+                            "instructions": "Optional link the message points to.",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "allow_in_bindings": 0,
+                            "parent_repeater": "field_status_bar_messages"
+                        }
+                    ]
+                },
+                {
+                    "key": "field_status_bar_duration",
+                    "label": "Auto-rotate Interval",
+                    "name": "status_bar_duration",
+                    "aria-label": "",
+                    "type": "number",
+                    "instructions": "Seconds between each message rotation (2–30).",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_status_bar_enabled",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": 5,
+                    "min": 2,
+                    "max": 30,
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "seconds"
+                },
+                {
+                    "key": "field_status_bar_dismissible",
+                    "label": "Allow Dismissal",
+                    "name": "status_bar_dismissible",
+                    "aria-label": "",
+                    "type": "true_false",
+                    "instructions": "Show a close button so users can hide the status bar.",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_status_bar_enabled",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 1,
+                    "ui": 1,
+                    "ui_on_text": "",
+                    "ui_off_text": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "wp-documentation-customize"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "display_title": "",
+    "modified": 1788576339
+}

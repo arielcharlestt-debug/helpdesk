@@ -1,0 +1,1058 @@
+# Copyright (C) 2026 zarhasan
+# This file is distributed under the GNU General Public License v3.0 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Documentation 2.0.4\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/wp-documentation\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-01T19:34:55+05:30\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: wp-documentation\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "WP Documentation"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://redoxbird.com/product/wp-documentation-pro/"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "A fast, lightweight WordPress theme for product documentation, Helpdesk, Wikis, docs, knowledge base, developer docs, API docs, user guides, integration docs, onboarding docs, tutorials, training materials, troubleshooting guides, FAQs, and support sites. Built for Gutenberg with Tailwind CSS, and Alpine.js supports code snippets, callout boxes, Mermaid.js diagrams, fast search, and more."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "zarhasan"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://redoxbird.com"
+msgstr ""
+
+#: 404.php:16
+msgid "404 error"
+msgstr ""
+
+#: 404.php:17
+msgid "We can’t find that page"
+msgstr ""
+
+#: 404.php:18
+msgid "Sorry, the page you are looking for doesn't exist or has been moved."
+msgstr ""
+
+#: 404.php:27
+msgid "Go Back"
+msgstr ""
+
+#: 404.php:34
+msgid "Go to homepage"
+msgstr ""
+
+#: archive-docs.php:10
+#: functions.php:275
+#: includes/settings-framework.php:28
+#: includes/settings-framework.php:50
+#: includes/settings-framework.php:51
+#: template-parts/docs-hero-call_to_action.php:28
+#: template-parts/docs-hero-simple_content.php:19
+msgid "WP Documentation"
+msgstr ""
+
+#: archive-docs.php:11
+#: functions.php:276
+msgid "Find the answers to your questions in our documentation."
+msgstr ""
+
+#: comments.php:27
+msgid "%d Comment."
+msgid_plural "%d Comments."
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:33
+#: comments.php:56
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:37
+#: comments.php:59
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:38
+#: comments.php:60
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:72
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:129
+msgid "Callout"
+msgstr ""
+
+#: functions.php:130
+msgid "Callout block by WP Documentation."
+msgstr ""
+
+#: functions.php:144
+msgid "Code Snippet"
+msgstr ""
+
+#: functions.php:145
+msgid "Code Snippet block by WP Documentation."
+msgstr ""
+
+#: functions.php:159
+msgid "Code Snippet Tabs"
+msgstr ""
+
+#: functions.php:160
+msgid "Code Snippet Tabs block by WP Documentation."
+msgstr ""
+
+#: functions.php:174
+msgid "Code Snippet Panels"
+msgstr ""
+
+#: functions.php:175
+msgid "Code Snippet Panels block by WP Documentation."
+msgstr ""
+
+#: functions.php:189
+msgid "Mermaid Diagram"
+msgstr ""
+
+#: functions.php:190
+msgid "Mermaid.js diagram block by WP Documentation."
+msgstr ""
+
+#: functions.php:204
+#: template-parts/docs-sidebar.php:49
+msgid "Collapse"
+msgstr ""
+
+#: functions.php:205
+msgid "Collapsible content block by WP Documentation."
+msgstr ""
+
+#: functions.php:219
+msgid "Cards"
+msgstr ""
+
+#: functions.php:220
+msgid "Cards block by WP Documentation."
+msgstr ""
+
+#: functions.php:234
+msgid "Steps"
+msgstr ""
+
+#: functions.php:235
+msgid "Steps block by WP Documentation."
+msgstr ""
+
+#: functions.php:277
+msgid "npm install react"
+msgstr ""
+
+#: functions.php:280
+msgid "Get Started"
+msgstr ""
+
+#: functions.php:413
+msgid "Made with ❤️ by RedOxbird"
+msgstr ""
+
+#: functions.php:416
+msgid "Made with ❤️ by <a href=\"https://redoxbird.com/\" rel=\"noopener\">RedOxbird</a>"
+msgstr ""
+
+#: functions.php:614
+msgid "Primary"
+msgstr ""
+
+#: functions.php:615
+msgid "Secondary"
+msgstr ""
+
+#: functions.php:616
+msgid "Footer"
+msgstr ""
+
+#: functions.php:1127
+#: lib/BreadcrumbsTrail.php:266
+msgid "Browse:"
+msgstr ""
+
+#: functions.php:1128
+#: lib/BreadcrumbsTrail.php:267
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: functions.php:1129
+#: functions.php:1130
+msgctxt "breadcrumbs aria label"
+msgid "Home"
+msgstr ""
+
+#: functions.php:1131
+#: lib/BreadcrumbsTrail.php:269
+msgid "404 Not Found"
+msgstr ""
+
+#: functions.php:1132
+#: lib/BreadcrumbsTrail.php:270
+msgid "Archives"
+msgstr ""
+
+#. Translators: %s is the search query.
+#: functions.php:1133
+#: lib/BreadcrumbsTrail.php:272
+msgid "Search results for: %s"
+msgstr ""
+
+#. Translators: %s is the page number.
+#: functions.php:1134
+#: lib/BreadcrumbsTrail.php:274
+msgid "Page %s"
+msgstr ""
+
+#. Translators: %s is the page number.
+#: functions.php:1135
+#: lib/BreadcrumbsTrail.php:276
+msgid "Comment Page %s"
+msgstr ""
+
+#. Translators: Minute archive title. %s is the minute time format.
+#: functions.php:1136
+#: lib/BreadcrumbsTrail.php:278
+msgid "Minute %s"
+msgstr ""
+
+#. Translators: Weekly archive title. %s is the week date format.
+#: functions.php:1137
+#: lib/BreadcrumbsTrail.php:280
+msgid "Week %s"
+msgstr ""
+
+#: includes/settings-framework.php:34
+msgid "Pro is Activated"
+msgstr ""
+
+#: index.php:48
+msgid "Blog Posts"
+msgstr ""
+
+#: index.php:65
+#: page-templates/faqs.php:48
+msgid "All"
+msgstr ""
+
+#: lib/BreadcrumbsTrail.php:268
+msgid "Home"
+msgstr ""
+
+#: lib/BreadcrumbsTrail.php:774
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: lib/BreadcrumbsTrail.php:794
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: lib/BreadcrumbsTrail.php:814
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: lib/BreadcrumbsTrail.php:833
+#: lib/BreadcrumbsTrail.php:864
+#: lib/BreadcrumbsTrail.php:893
+#: lib/BreadcrumbsTrail.php:922
+#: lib/BreadcrumbsTrail.php:1291
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: lib/BreadcrumbsTrail.php:834
+#: lib/BreadcrumbsTrail.php:894
+#: lib/BreadcrumbsTrail.php:1296
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: lib/BreadcrumbsTrail.php:835
+#: lib/BreadcrumbsTrail.php:1301
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: lib/BreadcrumbsTrail.php:865
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: lib/class-tgm-plugin-activation.php:330
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: lib/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: lib/class-tgm-plugin-activation.php:334
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: lib/class-tgm-plugin-activation.php:340
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: lib/class-tgm-plugin-activation.php:346
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: lib/class-tgm-plugin-activation.php:352
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: lib/class-tgm-plugin-activation.php:358
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: lib/class-tgm-plugin-activation.php:364
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:370
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:386
+#: lib/class-tgm-plugin-activation.php:827
+#: lib/class-tgm-plugin-activation.php:2533
+#: lib/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:387
+#: lib/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:388
+#: lib/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:390
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:392
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: lib/class-tgm-plugin-activation.php:394
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:934
+#: lib/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:1121
+#: lib/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: lib/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: lib/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: lib/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: lib/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: lib/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: lib/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: lib/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: lib/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: lib/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: lib/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: lib/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:3509
+#: lib/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:3509
+#: lib/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: lib/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: lib/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: lib/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: lib/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Docs (Home)"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Docs (Custom)"
+msgstr ""
+
+#: page-templates/docs.php:10
+#: page-templates/page-builder.php:10
+msgid "Premium Feature"
+msgstr ""
+
+#: page-templates/docs.php:10
+#: page-templates/page-builder.php:10
+msgid "This template requires WP Documentation Pro."
+msgstr ""
+
+#. Template Name of the theme
+msgid "FAQs"
+msgstr ""
+
+#: page-templates/faqs.php:38
+#: template-parts/docs-content-faq.php:16
+msgid "Frequently asked questions"
+msgstr ""
+
+#: page-templates/faqs.php:126
+#: template-parts/docs-faq-default.php:107
+#: template-parts/docs-faq-split.php:104
+msgid "No FAQs"
+msgstr ""
+
+#: page-templates/faqs.php:127
+#: template-parts/docs-faq-default.php:108
+#: template-parts/docs-faq-split.php:105
+msgid "It seems that no FAQs have been created yet."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Page Builder"
+msgstr ""
+
+#. Template Name of the theme
+msgid "Release Notes"
+msgstr ""
+
+#: page-templates/release-notes.php:62
+msgid "No Release Notes"
+msgstr ""
+
+#: page-templates/release-notes.php:63
+msgid "It seems that no release notes have been created yet."
+msgstr ""
+
+#: template-parts/admin/onboarding.php:15
+msgid "Setup Documentation"
+msgstr ""
+
+#: template-parts/admin/onboarding.php:21
+msgid "1"
+msgstr ""
+
+#: template-parts/admin/onboarding.php:23
+msgid "Create Docs Page with \"Docs (Home)\" page template"
+msgstr ""
+
+#: template-parts/admin/onboarding.php:33
+msgid "2"
+msgstr ""
+
+#: template-parts/admin/onboarding.php:35
+msgid "Set Docs Page as Homepage"
+msgstr ""
+
+#: template-parts/admin/onboarding.php:45
+msgid "3"
+msgstr ""
+
+#: template-parts/admin/onboarding.php:47
+msgid "Add Your Logo"
+msgstr ""
+
+#: template-parts/admin/onboarding.php:57
+msgid "4"
+msgstr ""
+
+#: template-parts/admin/onboarding.php:59
+msgid "Setup nested pages for docs"
+msgstr ""
+
+#: template-parts/admin/onboarding.php:69
+msgid "5"
+msgstr ""
+
+#: template-parts/admin/onboarding.php:71
+msgid "Create your first doc page"
+msgstr ""
+
+#: template-parts/admin/onboarding.php:81
+msgid "6"
+msgstr ""
+
+#: template-parts/admin/onboarding.php:83
+msgid "Customize Search"
+msgstr ""
+
+#: template-parts/admin/plugins.php:36
+msgid "Install Essential Plugins"
+msgstr ""
+
+#: template-parts/admin/pricing.php:17
+msgid "You're a Pro!"
+msgstr ""
+
+#: template-parts/admin/pricing.php:20
+msgid "Thank you for supporting WP Documentation. Manage your license and account below."
+msgstr ""
+
+#: template-parts/admin/pricing.php:24
+msgid "Manage License"
+msgstr ""
+
+#: template-parts/admin/pricing.php:32
+msgid "WP Documentation Free vs Pro"
+msgstr ""
+
+#: template-parts/admin/pricing.php:35
+msgid "Take your documentation to the next level. Get access to all the pro options and support you need."
+msgstr ""
+
+#: template-parts/admin/pricing.php:146
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: template-parts/admin/upgrade.php:20
+msgid "Unlock the Full Power of WP Documentation"
+msgstr ""
+
+#: template-parts/admin/upgrade.php:23
+msgid "Congratulations! You Are Using WP Documentation. Free version gives you all the basics—but you are missing out on the real power. Upgrade now to unlock premium features and priority support."
+msgstr ""
+
+#: template-parts/admin/upgrade.php:28
+msgid "What's included"
+msgstr ""
+
+#: template-parts/admin/upgrade.php:36
+msgid "Custom Docs Page"
+msgstr ""
+
+#: template-parts/admin/upgrade.php:40
+msgid "Unlock All Variations"
+msgstr ""
+
+#: template-parts/admin/upgrade.php:44
+msgid "Single Doc Page Variants"
+msgstr ""
+
+#: template-parts/admin/upgrade.php:48
+msgid "Priority Support"
+msgstr ""
+
+#: template-parts/admin/upgrade.php:56
+msgid "Lifetime Access"
+msgstr ""
+
+#: template-parts/admin/upgrade.php:62
+msgid "Upgrade Now"
+msgstr ""
+
+#: template-parts/admin/upgrade.php:64
+msgid "Buy once and use on unlimited sites"
+msgstr ""
+
+#: template-parts/blocks/code-snippet-tabs.php:55
+#: template-parts/blocks/code-snippet-tabs.php:60
+#: template-parts/blocks/code-snippet.php:32
+#: template-parts/blocks/code-snippet.php:36
+#: template-parts/docs-hero-command.php:46
+#: template-parts/docs-hero-command.php:48
+msgid "Copy to clipboard"
+msgstr ""
+
+#: template-parts/blocks/code-snippet-tabs.php:61
+msgid "Copied!"
+msgstr ""
+
+#: template-parts/blocks/code-snippet.php:48
+#: template-parts/blocks/code-snippet.php:59
+msgid "Preview"
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: template-parts/content/content.php:35
+#: template-parts/docs-content.php:80
+#: template-parts/post-content.php:58
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/content/content.php:48
+#: template-parts/content/page.php:23
+#: template-parts/docs-content.php:93
+#: template-parts/post-content.php:71
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content/empty-state.php:19
+msgid "Nothing found"
+msgstr ""
+
+#: template-parts/content/none.php:17
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link.
+#: template-parts/content/none.php:26
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content/none.php:42
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content/none.php:51
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/docs-card-default.php:55
+#: template-parts/docs-card-informative.php:47
+#: template-parts/docs-card-list.php:62
+msgid "Topics"
+msgstr ""
+
+#: template-parts/docs-content.php:48
+msgid "All Pages"
+msgstr ""
+
+#: template-parts/docs-content.php:55
+msgid "On This Page"
+msgstr ""
+
+#: template-parts/docs-hero-call_to_action.php:32
+#: template-parts/docs-hero-command.php:32
+#: template-parts/docs-hero-searchbar.php:31
+#: template-parts/docs-hero-simple_content.php:23
+msgid "Explore our documentation to find the information you need."
+msgstr ""
+
+#: template-parts/docs-hero-command.php:28
+#: template-parts/docs-hero-searchbar.php:27
+msgid "wp-documentation"
+msgstr ""
+
+#: template-parts/docs-hero-command.php:38
+msgid "Terminal"
+msgstr ""
+
+#: template-parts/docs-hero-default.php:45
+msgid "Build better docs, 10x faster"
+msgstr ""
+
+#: template-parts/docs-hero-default.php:50
+msgid "Comprehensive guides, API references, and tutorials to help you build amazing WordPress experiences."
+msgstr ""
+
+#: template-parts/docs-hero-searchbar.php:38
+msgid "Docs"
+msgstr ""
+
+#: template-parts/docs-hero-searchbar.php:40
+msgid "Search for docs..."
+msgstr ""
+
+#: template-parts/docs-links.php:31
+msgid "Continue"
+msgstr ""
+
+#: template-parts/docs-navigation.php:77
+#: template-parts/pagination.php:29
+#: template-parts/post-navigation.php:28
+msgid "Next"
+msgstr ""
+
+#: template-parts/docs-quick-links-default.php:6
+msgid "Getting Started"
+msgstr ""
+
+#: template-parts/docs-quick-links-default.php:14
+msgid "Installation"
+msgstr ""
+
+#: template-parts/docs-quick-links-default.php:22
+msgid "API Reference"
+msgstr ""
+
+#: template-parts/docs-quick-links-default.php:30
+msgid "Help"
+msgstr ""
+
+#: template-parts/docs-sidebar.php:43
+msgid "Expand"
+msgstr ""
+
+#: template-parts/docs-toc.php:35
+#: template-parts/toc.php:25
+msgid "Back to top"
+msgstr ""
+
+#: template-parts/footer-logo.php:19
+#: template-parts/header-logo.php:19
+msgid "%s Logo"
+msgstr ""
+
+#: template-parts/header-search-button.php:37
+msgid "Search for docs, posts, pages, etc"
+msgstr ""
+
+#: template-parts/header-search-button.php:41
+msgid "Ctrl + K"
+msgstr ""
+
+#: template-parts/pagination.php:28
+#: template-parts/post-navigation.php:17
+msgid "Previous"
+msgstr ""
+
+#: template-parts/post-card-default.php:24
+msgid "Posted on: "
+msgstr ""
+
+#: template-parts/post-content.php:39
+msgid "Published on %s"
+msgstr ""
+
+#: template-parts/skip-link.php:10
+msgid "Skip to main content"
+msgstr ""
+
+#: template-parts/status-bar.php:74
+msgid "Dismiss"
+msgstr ""

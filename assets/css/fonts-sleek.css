@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Geist';
+    src: url('../fonts/geist.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Geist';
+    src: url('../fonts/geist.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Geist';
+    src: url('../fonts/geist.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Geist';
+    src: url('../fonts/geist.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Geist Mono';
+    src: url('../fonts/geist-mono.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+:root {
+    --font-primary: 'Geist', sans-serif;
+    --font-secondary: 'Geist', sans-serif;
+    --font-mono: 'Geist Mono', monospace;
+}

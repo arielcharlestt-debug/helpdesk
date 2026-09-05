@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato-400.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato-700.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url('../fonts/dm-serif-display.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'IBM Plex Mono';
+    src: url('../fonts/ibm-plex-mono.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+:root {
+    --font-primary: 'Lato', sans-serif;
+    --font-secondary: 'DM Serif Display', serif;
+    --font-mono: 'IBM Plex Mono', monospace;
+}
