@@ -18,7 +18,7 @@
 
 <div class="sr-only live-status-region" role="status"></div>
 
-<footer class="mt-16 border-t-1 bg-frost-0 border-frost-300 border-dashed">
+<footer class="mt-16 border-t-1 bg-frost-1000 text-frost-0 border-frost-300 border-dashed">
   <div class="x-container flex flex-col !md:justify-between !md:items-center !md:flex-row py-8 gap-8">
     <a href="<?php echo esc_url(home_url()); ?>" class="w-40 sm:w-80 py-2 pr-4">
       <?php if(has_custom_logo()): ?>
@@ -27,7 +27,7 @@
         </span>
       <?php else: ?>
         <span class="flex justify-start items-start flex-col gap-2">
-          <span class="text-lg sm:text-3xl text-frost-900 font-secondary"><?php echo get_bloginfo('name'); ?></span>
+          <span class="text-lg sm:text-3xl text-frost-0 font-secondary"><?php echo get_bloginfo('name'); ?></span>
         </span>
       <?php endif; ?>
     </a>
@@ -47,7 +47,7 @@
 
   <div class="x-container">
     <div class="w-full py-8 border-t-1 border-frost-300 border-solid">
-      <p class="text-sm text-frost-600">
+      <p class="text-sm text-frost-0">
         <?php echo wp_documentation_get_footer_notice(); ?>
       </p>
     </div>
