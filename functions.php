@@ -279,6 +279,7 @@ if(!function_exists('wp_documentation_get_default_options')) {
             'status_bar_duration' => 5,
             'status_bar_dismissible' => true,
             'footer_copyright_notice' => '',
+            'footer_logo' => null,
             'docs_home_hero_content' => [
                 'title' => __('WP Documentation', 'wp-documentation'),
                 'description' => __('Find the answers to your questions in our documentation.', 'wp-documentation'),

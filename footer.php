@@ -8,8 +8,16 @@
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
  * @package wp_documentation
- * 
+ *
  */
+
+$theme_options = function_exists('get_field') ? get_field('wp_documentation_options', 'option') : wp_documentation_get_default_options();
+
+if(empty($theme_options)) {
+  $theme_options = wp_documentation_get_default_options();
+};
+
+$footer_logo = !empty($theme_options['footer_logo']['url']) ? $theme_options['footer_logo'] : null;
 
 ?>
 
@@ -21,7 +29,14 @@
 <footer class="mt-16 border-t-1 bg-frost-1000 text-frost-0 border-frost-300 border-dashed">
   <div class="x-container flex flex-col !md:justify-between !md:items-center !md:flex-row py-8 gap-8">
     <a href="<?php echo esc_url(home_url()); ?>" class="w-40 sm:w-80 py-2 pr-4">
-      <?php if(has_custom_logo()): ?>
+      <?php if($footer_logo): ?>
+        <span class="h-20 sm:h-14 flex justify-start items-center">
+          <img
+            src="<?php echo esc_url($footer_logo['url']); ?>"
+            alt="<?php echo esc_attr(!empty($footer_logo['alt']) ? $footer_logo['alt'] : get_bloginfo('name')); ?>"
+            class="h-auto w-auto max-w-full max-h-[90%]" />
+        </span>
+      <?php elseif(has_custom_logo()): ?>
         <span class="h-20 sm:h-14 flex justify-start items-center">
           <?php get_template_part('template-parts/header-logo'); ?>
         </span>

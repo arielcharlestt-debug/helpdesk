@@ -613,6 +613,32 @@
                     "append": ""
                 },
                 {
+                    "key": "field_68e2b1a4c1a01",
+                    "label": "Footer Logo",
+                    "name": "footer_logo",
+                    "aria-label": "",
+                    "type": "image",
+                    "instructions": "Optional. Used in the footer instead of the header logo (the footer background is dark, so a white/light logo variant usually works best here). Falls back to the header logo if left blank.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": "",
+                    "allow_in_bindings": 0,
+                    "preview_size": "medium"
+                },
+                {
                     "key": "tab_status_bar",
                     "label": "Status Bar",
                     "name": "",
