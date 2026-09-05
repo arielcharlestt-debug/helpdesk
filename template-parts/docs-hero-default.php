@@ -16,9 +16,6 @@ $pulse_class = $color_style === 'neutral' ? 'bg-frost-1000' : 'bg-primary border
 // Description left border
 $desc_border_class = $color_style === 'branded' ? 'border-primary' : 'border-frost-1000';
 
-// Subtitle underline color (matches the description left border above)
-$subtitle_underline_var = $color_style === 'branded' ? '--color-primary' : '--color-frost-1000';
-
 // Background color
 $bg_color_class = $color_style === 'branded' ? 'border-primary-200 bg-frost-0' : 'border-frost-200 bg-frost-0';
 
@@ -48,8 +45,7 @@ $primary_btn_class = 'group/btn inline-flex items-center border border-transpare
         <div class="relative z-10 max-w-4xl">
             <?php if(!empty($args['subtitle'])): ?>
                 <div
-                    class="mb-6 inline-flex items-center gap-2 underline text-[11px] font-bold uppercase tracking-widest text-frost-0"
-                    style="text-decoration-color: var(<?php echo esc_attr($subtitle_underline_var); ?>);">
+                    class="mb-6 inline-flex items-center gap-2 text-[11px] font-bold uppercase tracking-widest text-frost-0">
                     <?php echo esc_html(!empty($args['subtitle']) ? $args['subtitle'] : 'Version 1.5'); ?>
                 </div>
             <?php endif; ?>
