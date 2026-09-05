@@ -35,7 +35,7 @@ $primary_btn_class = 'group/btn inline-flex items-center border border-transpare
                 src="<?php echo esc_url($bg_image['url']); ?>"
                 alt="<?php echo esc_attr(!empty($bg_image['alt']) ? $bg_image['alt'] : ''); ?>"
                 class="absolute inset-0 w-full h-full object-cover pointer-events-none" />
-            <div class="absolute inset-0 pointer-events-none" style="background-color: var(--color-frost-0); opacity: 0.4;"></div>
+            <div class="absolute inset-0 pointer-events-none" style="background-color: var(--color-frost-0); opacity: 0;"></div>
         <?php else: ?>
             <div class="absolute inset-0 opacity-[0.02] pointer-events-none"
                 style="background-image: radial-gradient(<?php echo esc_attr($dot_color); ?> 1px, transparent 1px); background-size: 24px 24px;">
@@ -52,12 +52,12 @@ $primary_btn_class = 'group/btn inline-flex items-center border border-transpare
             <?php endif; ?>
 
             <h1
-                class="mb-6 font-secondary text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight text-frost-1000 leading-[1.1]">
+                class="mb-6 font-secondary text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight text-frost-0 leading-[1.1]">
                 <?php echo !empty( $args["title"] ) ? esc_html( $args["title"] ) : esc_html__('Build better docs, 10x faster', 'wp-documentation'); ?>
             </h1>
 
             <div
-                class="mb-10 max-w-2xl border-l-2 <?php echo esc_attr($desc_border_class); ?> pl-6 text-lg leading-relaxed text-frost-600">
+                class="mb-10 max-w-2xl border-l-2 <?php echo esc_attr($desc_border_class); ?> pl-6 text-lg leading-relaxed text-frost-0">
                 <?php echo !empty( $args["description"] ) ? wp_kses_post( $args["description"] ) : esc_html__('Comprehensive guides, API references, and tutorials to help you build amazing WordPress experiences.', 'wp-documentation'); ?>
             </div>
 
