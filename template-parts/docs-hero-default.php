@@ -45,7 +45,7 @@ $primary_btn_class = 'group/btn inline-flex items-center border border-transpare
         <div class="relative z-10 max-w-4xl">
             <?php if(!empty($args['subtitle'])): ?>
                 <div
-                    class="mb-6 inline-flex items-center gap-2 bg-transparent px-3 py-1 text-[11px] font-bold uppercase tracking-widest text-frost-0">
+                    class="mb-6 inline-flex items-center gap-2 border border-frost-200 bg-transparent px-3 py-1 text-[11px] font-bold uppercase tracking-widest text-frost-0">
                     <span class="h-1.5 w-1.5 rounded-full <?php echo esc_attr($pulse_class); ?> animate-pulse"></span>
                     <?php echo esc_html(!empty($args['subtitle']) ? $args['subtitle'] : 'Version 1.5'); ?>
                 </div>
