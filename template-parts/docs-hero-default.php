@@ -45,7 +45,7 @@ $primary_btn_class = 'group/btn inline-flex items-center border border-transpare
         <div class="relative z-10 max-w-4xl">
             <?php if(!empty($args['subtitle'])): ?>
                 <div
-                    class="mb-6 inline-flex items-center gap-2 text-[11px] font-bold uppercase tracking-widest text-frost-0">
+                    class="mb-6 inline-flex items-center gap-2 border border-frost-200 bg-transparent px-3 py-1 text-[11px] font-bold uppercase tracking-widest text-frost-0">
                     <?php echo esc_html(!empty($args['subtitle']) ? $args['subtitle'] : 'Version 1.5'); ?>
                 </div>
             <?php endif; ?>
