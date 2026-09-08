@@ -28,7 +28,7 @@ $primary_btn_class = 'group/btn inline-flex items-center border border-transpare
     ' px-8 py-4 text-sm font-bold text-frost-0 transition-all hover:gap-3';
 ?>
 
-<div class="x-container my-4">
+<div class="x-container docs-hero-container my-4">
     <div class="border <?php echo esc_attr($bg_color_class); ?> p-8 md:p-12 lg:p-14 relative overflow-hidden group x-rounded-2xl">
         <?php if ($bg_image): ?>
             <img

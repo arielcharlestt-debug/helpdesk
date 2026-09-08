@@ -263,6 +263,11 @@ kbd svg.icon-tabler {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
+
+    .docs-hero-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 
