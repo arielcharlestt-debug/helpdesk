@@ -28,26 +28,6 @@
                 "type": null,
                 "value": null
             }
-        },
-        {
-            "key": "field_6a92f5d92f3ee",
-            "label": "Revised Date",
-            "name": "revised_date",
-            "aria-label": "",
-            "type": "date_picker",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "display_format": "d\/m\/Y",
-            "return_format": "F j, Y",
-            "first_day": 1,
-            "default_to_current_date": 0,
-            "allow_in_bindings": 0
         }
     ],
     "location": [

@@ -50,7 +50,7 @@ if(!empty($theme_options['single_doc_layout']) && $theme_options['single_doc_lay
 	</div>
 
 	<?php
-		$revised_date = function_exists('get_field') ? get_field('revised_date') : null;
+		$was_revised = get_the_modified_date('U') > get_the_date('U');
 		$has_child_docs = !empty(get_children([
 			'post_parent' => get_the_ID(),
 			'post_type'   => 'docs',
@@ -60,8 +60,8 @@ if(!empty($theme_options['single_doc_layout']) && $theme_options['single_doc_lay
 	?>
 	<?php if (!$has_child_docs): ?>
 		<div class="text-sm text-frost-500 mt-4">
-			<?php if (!empty($revised_date)): ?>
-				<?php echo sprintf(esc_html__('Revised on %s', 'wp-documentation'), esc_html($revised_date)); ?>
+			<?php if ($was_revised): ?>
+				<?php echo sprintf(esc_html__('Revised on %s', 'wp-documentation'), esc_html(get_the_modified_date())); ?>
 			<?php else: ?>
 				<?php echo sprintf(esc_html__('Published on %s', 'wp-documentation'), esc_html(get_the_date())); ?>
 			<?php endif; ?>
