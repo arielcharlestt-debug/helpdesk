@@ -43,8 +43,6 @@ if(empty($theme_options)) {
         endwhile;
       ?>
     </div><!-- #primary -->
-
-    <?php get_template_part('template-parts/docs', 'toc', ['toc' => $toc]); ?>
   </div>
 
 <?php elseif($theme_options['single_doc_layout'] == 'minimal') : ?>
@@ -89,10 +87,8 @@ if(empty($theme_options)) {
         endwhile;
       ?>
     </div><!-- #primary -->
-
-    <?php get_template_part('template-parts/docs', 'toc', ['toc' => $toc]); ?>
   </div>
-  
+
 <?php elseif($theme_options['single_doc_layout'] == 'hide_toc') : ?>
     
   <div id="content" class="w-full flex justify-start x-container">

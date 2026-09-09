@@ -18,22 +18,14 @@ if(empty($theme_options)) {
     $theme_options = wp_documentation_get_default_options();
 };
 
-$isToc = true;
 $isSidebar = true;
 
 if(!empty($theme_options['single_doc_layout']) && $theme_options['single_doc_layout'] === 'minimal') {
-	$isToc = false;
 	$isSidebar = false;
 };
 
 if(!empty($theme_options['single_doc_layout']) && $theme_options['single_doc_layout'] === 'hide_sidebar') {
-	$isToc = true;
 	$isSidebar = false;
-};
-
-if(!empty($theme_options['single_doc_layout']) && $theme_options['single_doc_layout'] === 'hide_toc') {
-	$isToc = false;
-	$isSidebar = true;
 };
 
 ?>
@@ -46,21 +38,6 @@ if(!empty($theme_options['single_doc_layout']) && $theme_options['single_doc_lay
 			x-on:click="toggleSidebar">
 			<span x-show="isNotSidebar" class="w-5 h-5 inline-flex justify-center items-center"><?php echo wp_documentation_svg('layout-sidebar-left-expand'); ?></span>
 			<span><?php esc_html_e('All Pages', 'wp-documentation'); ?></span>
-		</button>
-
-		<style>
-			@media (max-width: 1023px) {
-				#docs-on-this-page-toggle {
-					display: none !important;
-				}
-			}
-		</style>
-		<button
-			id="docs-on-this-page-toggle"
-			x-on:click="toggleToc"
-			class="flex justify-end items-center gap-2 text-sm font-semibold text-right transition-all mt-8 ml-auto <?php echo esc_attr($isToc ? '!lg:hidden' : ''); ?>">
-			<span x-show="isNotToc" class="w-5 h-5 inline-flex justify-center items-center"><?php echo wp_documentation_svg('list'); ?></span>
-			<span><?php esc_html_e('On This Page', 'wp-documentation'); ?></span>
 		</button>
 
 		<?php get_template_part('template-parts/docs-content', 'overlays', ['documents' => $documents, 'toc' => $toc]); ?>
