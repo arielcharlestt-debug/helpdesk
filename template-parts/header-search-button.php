@@ -34,7 +34,7 @@ $color = $color_style === 'branded' ? 'frost' : 'frost';
     </span>
 
     <span class="mr-4 text-sm">
-        <?php esc_attr_e('Search for docs, posts, pages, etc', 'wp-documentation'); ?>
+        <?php esc_attr_e('Search guides, FAQs, and more...', 'wp-documentation'); ?>
     </span>
     
     <span class="ml-auto text-xs font-semibold">
