@@ -103,30 +103,6 @@ add_filter('get_default_comment_status', function($status, $post_type) {
     return $status;
 }, 10, 2);
 
-// TEMPORARY one-time cleanup: clears the custom icon image on one FAQ so it uses the default icon.
-// Runs the first time an admin loads any wp-admin page after deploy, then never again. Remove after it has run.
-add_action('admin_init', function () {
-    if (!current_user_can('manage_options') || get_option('wp_documentation_icon_cleanup_done')) {
-        return;
-    }
-
-    $query = new WP_Query([
-        'post_type'      => 'docs',
-        'name'           => 'my-worksheet-is-set-to-manual-mode-how-to-switch-to-automatic-tax-recalculation-is-making-my-ttpay-run-slow',
-        'posts_per_page' => 1,
-        'fields'         => 'ids',
-        'no_found_rows'  => true,
-    ]);
-
-    if (!empty($query->posts)) {
-        $post_id = $query->posts[0];
-        delete_post_meta($post_id, 'icon');
-        delete_post_meta($post_id, '_icon');
-        clean_post_cache($post_id);
-        update_option('wp_documentation_icon_cleanup_done', 1, false);
-    }
-});
-
 function wp_documentation_version_assets_by_mtime($src) {
     $base = get_template_directory_uri() . '/assets/';
 
