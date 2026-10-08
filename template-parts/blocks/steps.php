@@ -14,7 +14,7 @@ $block_id = isset($block['id']) ? esc_attr($block['id']) : uniqid('steps-');
 
 <div class="w-full flex flex-col gap-8 mt-8 mb-4" id="<?php echo esc_attr($block_id); ?>">
     <?php foreach ($steps as $index => $step): ?>
-        <div class="w-full flex flex-col justify-start items-start sm:flex-row gap-8">
+        <div class="docs-step w-full flex flex-col justify-start items-start sm:flex-row gap-8">
             <div class="shrink-0 flex justify-start items-start mt-0.5">
                 <span class="shrink-0 inline-flex justify-center items-center w-8 h-8 rounded-full bg-primary text-white font-bold">
                     <?php echo esc_html($index + 1); ?>

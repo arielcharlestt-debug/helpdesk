@@ -270,6 +270,32 @@ kbd svg.icon-tabler {
     }
 }
 
+/* Doc article titles: smaller, and long words/slashes wrap instead of overflowing */
+.single-docs h1.entry-title {
+    font-size: 1.875rem;
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+}
+
+@media screen and (min-width: 640px) {
+    .single-docs h1.entry-title {
+        font-size: 2.25rem;
+    }
+}
+
+/* Steps: keep the number beside the heading on mobile instead of stacking above it */
+@media screen and (max-width: 639px) {
+    .entry-content .docs-step {
+        flex-direction: row;
+        gap: 0.75rem;
+    }
+
+    .entry-content .docs-step h3 {
+        font-size: 1.125rem;
+        line-height: 1.35;
+    }
+}
+
 
 /* Buttons */
 
