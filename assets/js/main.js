@@ -1196,3 +1196,33 @@ function randomId(length = 10) {
     }, false);
   }
 })();
+
+/* Wrap a bold "Solution" label and the content after it (up to the next heading) in a callout box */
+(function () {
+  function wrapSolutions() {
+    document.querySelectorAll('.entry-content p').forEach(function (label) {
+      if (label.children.length !== 1 || !/^(strong|b)$/i.test(label.firstElementChild.tagName)) return;
+      if (!/^solutions?\s*:?$/i.test(label.textContent.trim())) return;
+      if (label.parentElement.classList.contains('docs-solution')) return;
+
+      var box = document.createElement('div');
+      box.className = 'docs-solution';
+      label.parentNode.insertBefore(box, label);
+      label.classList.add('docs-solution-label');
+
+      var node = label;
+      while (node) {
+        var next = node.nextSibling;
+        if (node !== label && node.nodeType === 1 && /^(H[1-6]|HR)$/.test(node.tagName)) break;
+        box.appendChild(node);
+        node = next;
+      }
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', wrapSolutions);
+  } else {
+    wrapSolutions();
+  }
+})();

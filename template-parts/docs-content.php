@@ -59,7 +59,8 @@ if(!empty($theme_options['single_doc_layout']) && $theme_options['single_doc_lay
 		]));
 	?>
 	<?php if (!$has_child_docs): ?>
-		<div class="text-sm text-frost-500 mt-4">
+		<div class="docs-article-date">
+				<?php echo wp_documentation_svg('calendar'); ?>
 			<?php if ($was_revised): ?>
 				<?php echo sprintf(esc_html__('Revised on %s', 'wp-documentation'), esc_html(get_the_modified_date())); ?>
 			<?php else: ?>

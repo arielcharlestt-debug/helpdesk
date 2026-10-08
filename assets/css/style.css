@@ -283,6 +283,96 @@ kbd svg.icon-tabler {
     }
 }
 
+/* Doc breadcrumb: keep the current page on one line (truncated); hide it on phones since the title is right below */
+.single-docs .wp_documentation_breadcrumb li.trail-end {
+    min-width: 0;
+    max-width: 100%;
+}
+
+.single-docs .wp_documentation_breadcrumb li.trail-end > span {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 639px) {
+    .single-docs .wp_documentation_breadcrumb li.trail-end {
+        display: none;
+    }
+
+    .single-docs .wp_documentation_breadcrumb li.trail-item:nth-last-child(2) svg {
+        display: none;
+    }
+}
+
+/* Published / revised date under the title */
+.docs-article-date {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--color-frost-700);
+}
+
+.docs-article-date svg {
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+}
+
+/* "Solution" callout (wrapped by main.js) */
+.docs-solution {
+    margin: 1.25rem 0;
+    padding: 1rem 1.25rem 1.25rem;
+    background: var(--color-frost-50);
+    background: color-mix(in srgb, var(--color-primary) 6%, var(--color-frost-0));
+    border-left: 4px solid var(--color-primary);
+    border-radius: var(--radius-lg);
+}
+
+.docs-solution > :last-child {
+    margin-bottom: 0;
+}
+
+.docs-solution .docs-solution-label {
+    margin: 0 0 0.5rem;
+    font-size: 0.8125rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
+.docs-solution .docs-solution-label strong {
+    color: inherit;
+    font-weight: 700;
+}
+
+/* Images in articles open in a lightbox on click: make that discoverable */
+.entry-content.prose img {
+    cursor: zoom-in;
+    transition: box-shadow 0.15s ease;
+}
+
+.entry-content.prose img:hover {
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-primary) 40%, transparent);
+}
+
+/* Slimmer docs sidebar on small laptops so the article gets more room */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    body .docs-sidebar {
+        width: 16rem;
+        padding-right: 1.25rem;
+    }
+
+    body .docs-sidebar ul ul a {
+        font-size: 0.875rem;
+        line-height: 1.35;
+    }
+}
+
 /* Steps: keep the number beside the heading on mobile instead of stacking above it */
 @media screen and (max-width: 639px) {
     .entry-content .docs-step {
