@@ -103,6 +103,25 @@ add_filter('get_default_comment_status', function($status, $post_type) {
     return $status;
 }, 10, 2);
 
+function wp_documentation_version_assets_by_mtime($src) {
+    $base = get_template_directory_uri() . '/assets/';
+
+    if (strpos($src, $base) !== 0) {
+        return $src;
+    }
+
+    $relative = (string) strtok(substr($src, strlen($base)), '?');
+    $file = get_template_directory() . '/assets/' . $relative;
+
+    if (!is_file($file)) {
+        return $src;
+    }
+
+    return add_query_arg('ver', filemtime($file), $src);
+}
+add_filter('style_loader_src', 'wp_documentation_version_assets_by_mtime');
+add_filter('script_loader_src', 'wp_documentation_version_assets_by_mtime');
+
 add_filter('use_block_editor_for_post', function( $use_block_editor, $post ) {
     if ( ! $post ) {
         return $use_block_editor;
